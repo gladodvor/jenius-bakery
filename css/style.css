@@ -1,0 +1,59 @@
+/* .button{
+     background-color: #819B57;
+     border: 2px solid  #819B57;
+     border-radius: 8px ;
+     color:  #FAF4EA;
+     cursor: pointer;
+    
+}
+
+.button:hover{
+    background-color: transparent;
+    color: #465929;
+    ;
+}
+.button:focus{
+    background-color: transparent;
+    color: #465929;
+    ;
+} */
+
+:root{
+    --color-primary-dark:#31261A;
+    --color-primary-light:#FAF4EA;
+    --color-brand-light:#819B57;
+    --color-brand-dark:#465929;
+
+}
+
+body{
+    color: var(--color-primary-dark);
+}
+
+
+.link{
+    color: #FAF4EA;
+}
+
+.link:hover{
+    color: var(--color-brand);
+}
+
+.hero-title{
+    color: #FAF4EA ;
+}
+
+.hero-title .accent{    color: #819B57;
+     
+}
+
+.advantes-list{
+    color: #FAF4EA;
+    background-color: #819B57;
+}
+
+.section-title .accent{
+     color: var(--color-brand-dark);
+}
+
+
