@@ -1,79 +1,129 @@
-/* .button{
-     background-color: #819B57;
-     border: 2px solid  #819B57;
-     border-radius: 8px ;
-     color:  #FAF4EA;
-     cursor: pointer;
-    
+.button {
+  background-color: var(--color-brand-light);
+  border: 2px solid var(--color-brand-light);
+  border-radius: 8px;
+  color: var(--color-primary-light);
+  cursor: pointer;
+  font-weight: 600;
+  line-height: ;
 }
 
-.button:hover{
-    background-color: transparent;
-    color: #465929;
-    ;
+.button:hover {
+  background-color: transparent;
+  color: var(--color-primary-dark);
 }
-.button:focus{
+/* .button:focus{
     background-color: transparent;
-    color: #465929;
+    color:var();
     ;
 } */
 
-:root{
-    --color-primary-dark:#31261A;
-    --color-primary-light:#FAF4EA;
-    --color-brand-light:#819B57;
-    --color-brand-dark:#465929;
-
+:root {
+  --color-primary-dark: #31261a;
+  --color-primary-light: #faf4ea;
+  --color-brand-light: #819b57;
+  --color-brand-dark: #465929;
 }
 
-body{
-    color: var(--color-primary-dark);
-    font-family: "poppins", sans-serif;
+body {
+  color: var(--color-primary-dark);
+  font-family: "poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
-
-.link{
-    color: #FAF4EA;
+ul {
+  list-style-type: none;
 }
 
-.link:hover{
-    color: var(--color-brand);
+address{
+    font-style: normal;
 }
 
-.hero-title{
-    color:var(--color-primary-light) ;
-     
-
-    font-size: 128px;
-    font-weight: 900;
-    line-height: 192px;
-    text-align: center;
-    
+.link {
+  color: var(--color-primary-light);
+  text-decoration: none;
 }
 
-.hero-title .accent{    color: var(--color-brand-light);
-font-size: 128px;
-font-weight: 900;
-line-height: 192px;
-text-align: center;
-
-     
+.link:hover {
+  color: var(--color-brand-light);
+  font-weight: 600;
 }
 
-.advantes-list{
-    color: #FAF4EA;
-    background-color: #819B57;
+.hero-title {
+  color: var(--color-primary-light);
+  font-size: 128px;
+  font-weight: 900;
+  /* line-height: 192px; */
+  text-align: center;
+  font-style: italic;
 }
 
-.section-title .accent{
-     color: var(--color-brand-dark);
+.hero-title .accent {
+  color: var(--color-brand-light);
+  font-size: 128px;
+  font-weight: 900;
+  line-height: 192px;
+  text-align: center;
 }
 
-.traditions-text .brand{
-    
-    color: var(--color-brand-light);
+.advantes-list {
+  color: var(--color-primary-light);
+  background-color: var(--color-brand-light);
 }
 
-.traditions-text .uppercase{
-    text-transform: uppercase;
+.advantes-item {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.section-title {
+  font-size: 64px;
+  line-height: 1.3;
+  font-weight: 900;
+}
+.section-title .accent {
+  color: var(--color-brand-dark);
+}
+
+.traditions-text .brand {
+  color: var(--color-brand-light);
+  font-weight: 600;
+}
+
+.traditions-text .uppercase {
+  text-transform: uppercase;
+}
+/* kuhari section */
+.chef-title {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+/* Format section */
+.format-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.format-text {
+  font-style: 14px;
+  font-weight: 300;
+}
+/* footer */
+.adress-link {
+  font-size: 16px;
+  font-weight: 300;
+  color: var(--color-primary-light);
+  text-decoration: none;
+}
+
+.adress-link:hover {
+  color: var(--color-brand-light);
+}
+
+.address-copyright{
+    font-style: 14px;
 }
