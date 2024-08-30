@@ -56,6 +56,7 @@
 }
 
 .button {
+  padding: 16px 32px;
   background-color: var(--color-brand-light);
   border: 2px solid var(--color-brand-light);
   border-radius: 8px;
@@ -106,6 +107,8 @@ p {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 address {
@@ -138,9 +141,32 @@ address {
 
 .link:hover {
   color: var(--color-brand-light);
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
+/* header */
+.header {
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-nav {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 64px;
+  flex-grow: 1;
+  justify-content: center;
+}
 /* Hero section */
 
 .hero-section {
@@ -163,15 +189,22 @@ address {
   text-align: center;
 }
 
-.advantes-list {
-  color: var(--color-primary-light);
+.advantes-section {
   background-color: var(--color-brand-light);
+  padding: 16px 0;
+}
+
+.advantes-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
 }
 
 .advantes-item {
   font-size: 20px;
   font-weight: 300;
   line-height: 1.5;
+  color: var(--color-primary-light);
 }
 
 .section-title {
@@ -186,6 +219,12 @@ address {
 /* Tradition section  */
 .tradition-section {
   padding-top: 96px;
+}
+
+.tradition-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
 }
 
 .tradition-title {
@@ -212,10 +251,26 @@ address {
 }
 
 /* Format section */
+.format {
+  border: 1px solid lightgrey;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.format-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
 
 .formats-title {
   margin-bottom: 80px;
 }
+
+.formats-item {
+  flex-basis: calc((100% - 40px) / 3);
+}
+
 .format-title {
   font-size: 24px;
   font-weight: 600;

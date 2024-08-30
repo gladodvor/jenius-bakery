@@ -15,19 +15,22 @@
 
 <body>
 
-  <header>
+  <header class="header">
     <div class="container">
-      <nav>
-        <a href="/"><img src="./images/logo.svg" alt="logo"></a>
-        <ul>
-          <li><a class="link" href="#tradition-section" target="_blank">Наші традиції</a></li>
-          <li><a class="link" href="#kuhari">Шеф-кухарі</a></li>
-          <li><a class="link" href="#formats">Формати</a></li>
-          <li><a class="link" href="#contacts">Контакти</a></li>
-        </ul>
-      </nav>
-      <!-- zvonok -->
-      <button class="button" type="button">Замовити дзвінок</button>
+      <div class="header-container">
+        <nav class="header-nav">
+          <a href="/"><img src="./images/logo.svg" alt="logo"></a>
+          <ul class="header-menu">
+            <li><a class="link" href="#tradition-section" target="_blank">Наші традиції</a></li>
+            <li><a class="link" href="#kuhari">Шеф-кухарі</a></li>
+            <li><a class="link" href="#formats">Формати</a></li>
+            <li><a class="link" href="#contacts">Контакти</a></li>
+          </ul>
+        </nav>
+        <!-- zvonok -->
+        <button class="button" type="button">Замовити дзвінок</button>
+      </div>
+
     </div>
   </header>
 
@@ -38,7 +41,7 @@
       </div>
     </section>
 
-    <section>
+    <section class="advantes-section">
       <div class="container">
         <h2 class="visually-hidden">
           nashi_perevagi
@@ -54,17 +57,21 @@
 
     <section class="tradition-section section" id="tradition-section">
       <div class="container">
-        <h2 class="tradition-title section-title">Новий формат традицій</h2>
-        <p class="traditions-text">
-          <span class="brand uppercase">shop bakery</span> — це пекарня, яка взяла все найкраще, і
-          зберегла смак традиційної випічки та натуральність інгредієнтів.
-        </p>
-        <p class="traditions-text">
-          Ми працюємо як найвідоміші мережі —
-          <span class="brand">5 хвилин і замовлення готове.</span> А ще у наших пекарень
-          стильний дизайн та висока якість обслуговування!
-        </p>
-        <img src="./images/Maskgroup.jpg" alt="bakerman">
+        <div class="tradition-container">
+          <div class="tradition-content">
+            <h2 class="tradition-title section-title">Новий формат<br> традицій</h2>
+            <p class="traditions-text">
+              <span class="brand uppercase">shop bakery</span> — це пекарня, яка взяла все найкраще, і
+              зберегла смак<br> традиційної випічки та натуральність інгредієнтів.
+            </p>
+            <p class="traditions-text">
+              Ми працюємо як найвідоміші мережі —<br>
+              <span class="brand">5 хвилин і замовлення готове.<br></span> А ще у наших пекарень
+              стильний дизайн<br> та висока якість обслуговування!
+            </p>
+          </div>
+          <img src="./images/Maskgroup.jpg" alt="bakerman">
+        </div>
       </div>
     </section>
 
@@ -100,9 +107,9 @@
     <section class="section" id="formats">
       <div class="container">
         <h2 class="section-title formats-title">Формати</h2>
-        <ul>
-          <li>
-            <article>
+        <ul class="format-list">
+          <li class="formats-item">
+            <article class="format">
               <h3 class="format-title" lang="en">Walrus</h3>
               <div class="format-text">
                 <p>Площа: до 120 м2</p>
@@ -113,8 +120,8 @@
               </div>
             </article>
           </li>
-          <li>
-            <article>
+          <li class="formats-item">
+            <article class="format">
               <h3 class="format-title" lang="en">Horseshoe</h3>
               <div class="format-text">
                 <p>Площа: до 25 м2</p>
@@ -125,8 +132,8 @@
               </div>
             </article>
           </li>
-          <li>
-            <article>
+          <li class="formats-item">
+            <article class="format">
               <h3 class="format-title" lang="en">Handlebar</h3>
               <div class="format-text">
                 <p>Площа: до 15 м2</p>
