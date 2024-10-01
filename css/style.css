@@ -171,6 +171,11 @@ address {
 
 .hero-section {
   padding: 272px 0;
+  background-image: url(../images/hero-section.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .hero-title {
@@ -255,6 +260,13 @@ address {
   border: 1px solid lightgrey;
   border-radius: 16px;
   padding: 24px;
+  height: 444px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(49, 38, 26, 0) 55.21%,
+    rgba(49, 38, 26, 0.71) 72.92%,
+    var(--color-primary-dark) 100%
+  );
 }
 
 .format-list {
@@ -300,4 +312,13 @@ address {
 
 .address-copyright {
   font-style: 14px;
+}
+
+/* footer-section */
+.footer {
+  background-image: url(../images/footer-fon.png);
+  background-color: var(--color-primary-dark);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
