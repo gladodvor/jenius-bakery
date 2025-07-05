@@ -1,0 +1,72 @@
+.footer {
+  padding: 32px 0;
+  background-image: url("../images/footer-fon.png");
+  background-color: var(--color-primary-dark);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.footer-container {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-nav {
+  flex-basis: 50%;
+  display: flex;
+  gap: 20px;
+}
+
+.footer-logo,
+.footer-menu {
+  flex-grow: 1;
+}
+
+.footer-address {
+  flex-basis: 50%;
+  display: flex;
+}
+
+.address-list,
+.address-info {
+  flex-grow: 1;
+}
+.adress-link {
+  font-size: 16px;
+  font-weight: 300;
+  color: var(--color-primary-light);
+  text-decoration: none;
+}
+
+.adress-link:hover {
+  color: var(--color-brand-normal);
+}
+
+.addres-icon {
+  fill: var(--color-primary-light);
+}
+
+.address-copyright {
+  font-size: 14px;
+}
+
+.footer::before {
+  content: "";
+  background-image: url("../images/bake__min.png");
+  position: absolute;
+  width: 180px;
+  height: 120px;
+  bottom: 0;
+  background-repeat: no-repeat;
+}
+.footer::after {
+  content: "";
+  background-image: url("../images/bake__max.png");
+  position: absolute;
+  width: 380px;
+  height: 190px;
+  bottom: 0;
+  right: 0;
+  background-repeat: no-repeat;
+}

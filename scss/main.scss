@@ -1,0 +1,50 @@
+
+
+
+
+
+
+
+address {
+  font-style: normal;
+}
+
+
+.section {
+  padding: 48px 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1288px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+@import './utils/fonts';
+@import './utils/variables';
+@import './base';
+@import './utils/utils';
+@import './utils/mixins';
+@import './utils/texts';
+@import './components/buttons';
+@import './components/links';
+@import './components/header';
+@import './components/hero__section';
+@import './components/Tradition__section';
+@import './components/chefs__section';
+@import './components/formats__section';
+@import './components/carousel';
+@import './components/contact__section';
+@import './components/footer';
+@import './components/modal';
+@import './components/form';
+
+
+
+
+
+
+
+
+
+
