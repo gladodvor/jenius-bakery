@@ -24,12 +24,14 @@ address {
 @import './utils/variables';
 @import './base';
 @import './utils/utils';
+@import './utils/texts';
 @import './utils/mixins';
 @import './utils/texts';
 @import './components/buttons';
 @import './components/links';
 @import './components/header';
 @import './components/hero__section';
+@import './components/advantees_section';
 @import './components/Tradition__section';
 @import './components/chefs__section';
 @import './components/formats__section';
@@ -38,6 +40,8 @@ address {
 @import './components/footer';
 @import './components/modal';
 @import './components/form';
+@import './components/mobile__menu';
+
 
 
 

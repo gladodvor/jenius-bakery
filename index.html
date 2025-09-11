@@ -28,7 +28,17 @@
           </ul>
         </nav>
         <!-- zvonok -->
-        <button class="button modal__btn__open" type="button">Замовити дзвінок</button>
+        <button class="header__button button modal__btn__open" type="button">Замовити дзвінок</button>
+        <button class="header__burger menu__btn__open" type="button">
+          <svg width="24" height="24">
+            <use href="./images/menu.svg">
+            </use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mobile-menu">
+        <button type="button" class="menu__btn__close"></button>
       </div>
 
     </div>
@@ -46,10 +56,10 @@
         <h2 class="visually-hidden">
           nashi_perevagi
         </h2>
-        <ul class="advantes-list">
-          <li class="advantes-item">Великий попит на ринку</li>
-          <li class="advantes-item">Доступні за бюджетом формати</li>
-          <li class="advantes-item">Досвідчена управлінська команда</li>
+        <ul class="advantees_section__list">
+          <li class="advantees_section__item">Великий попит на ринку</li>
+          <li class="advantees_section__item">Доступні за бюджетом формати</li>
+          <li class="advantees_section__item">Досвідчена управлінська команда</li>
         </ul>
       </div>
     </section>
@@ -61,12 +71,12 @@
           <div class="tradition-content">
             <h2 class="tradition-title section-title">Новий формат<br> традицій</h2>
             <p class="traditions-text">
-              <span class="brand uppercase">shop bakery</span> — це пекарня, яка взяла все найкраще, і
+              <span class="text-brand text-bold uppercase">shop bakery</span> — це пекарня, яка взяла все найкраще, і
               зберегла смак<br> традиційної випічки та натуральність інгредієнтів.
             </p>
             <p class="traditions-text">
               Ми працюємо як найвідоміші мережі —<br>
-              <span class="brand">5 хвилин і замовлення готове.<br></span> А ще у наших пекарень
+              <span class="text-brand">5 хвилин і замовлення готове.<br></span> А ще у наших пекарень
               стильний дизайн<br> та висока якість обслуговування!
             </p>
           </div>
@@ -180,7 +190,7 @@
             <h2 class="section-title contacts-title">Приєднуйся до
               мережі пекарень</h2>
             <p>Заповни форму, щоб ми звʼязались з тобою!</p>
-            <form action="" name="order__call__form" autocomplete="off" >
+            <form action="" name="order__call__form" autocomplete="off">
               <div class="form__field">
                 <label class="form__labelvisually-hidden visually-hidden" for="user__name">Ім'я</label>
                 <input class="form__input" type="text" name="user__name" id="user__name" placeholder="Ім'я" required>
@@ -265,12 +275,12 @@
     </div>
   </footer>
 
-  <div class="backdrop is__hidden" >
+  <div class="backdrop is__hidden">
     <div class="modal ">
       <button class="modal__btn_close" type="button"></button>
       <h2>Замовити дзвінок</h2>
       <p>Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
-      <form action="" name="contact__form" autocomplete="on" >
+      <form action="" name="contact__form" autocomplete="on">
         <div class="form__field">
           <label class="form__labelvisually-hidden visually-hidden" for="user__name">Ім'я</label>
           <input class="form__input" type="text" name="user__name" id="user__name" placeholder="Ім'я" required>
@@ -283,11 +293,12 @@
 
         <div class="form__field">
           <label class="form__label visually-hidden" for="user__email">Електронна пошта</label>
-          <input class="form__input" type="email" name="user__email" id="user__email" placeholder="Електронна пошта" required>
+          <input class="form__input" type="email" name="user__email" id="user__email" placeholder="Електронна пошта"
+            required>
         </div>
 
 
-        <button class="button form__button " type="submit" >Замовити дзвінок</button>
+        <button class="button form__button " type="submit">Замовити дзвінок</button>
         <p class="form__terms">Натискаючи на кнопку я погоджуюсь <a href="#" class="form__terms__links">з політикою
             конфіденційності</a></p>
       </form>
@@ -295,6 +306,7 @@
   </div>
 
   <script src="./js/main.js"></script>
+  <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
