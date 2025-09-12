@@ -5,10 +5,22 @@
     width: 100%;
     height: 100%;   
     background-color: var(--color-primary-light);
-    transform: translateX(-100%);
+    transform: translateX(100%);
+    transition: transform 0.3s ;
 
     &.is__open{
         transform: translateX(0);
-        transition: transform 0.3s ease-in-out;
+        
+    }
+
+    &.__btn-close{
+        position: absolute;
+        top: 16px;
+        right: 24px;    
+        
     }
 }
+.mobile-menu__btn-close{
+    position: absolute;
+        top: 16px;
+        right: 24px;}
